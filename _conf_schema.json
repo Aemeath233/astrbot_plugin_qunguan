@@ -1,0 +1,18 @@
+{
+  "uapi_token": {
+    "type": "string",
+    "description": "UAPI Token，用于查询 QQ 用户信息",
+    "hint": "请在 AstrBot WebUI 中填写，不要提交到 GitHub。也可以通过环境变量 UAPI_TOKEN 提供。",
+    "default": ""
+  },
+  "uapi_base_url": {
+    "type": "string",
+    "description": "UAPI 服务地址",
+    "default": "https://uapis.cn"
+  },
+  "uapi_timeout_seconds": {
+    "type": "int",
+    "description": "UAPI 请求超时时间（秒）",
+    "default": 15
+  }
+}
